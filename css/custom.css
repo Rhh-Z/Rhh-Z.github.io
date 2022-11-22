@@ -143,8 +143,11 @@
 }
 
 /* 黑夜模式适配 */
-[data-theme="dark"] #aside-content>.card-widget.card-info {
+/* [data-theme="dark"] #aside-content>.card-widget.card-info {
   background: #191919ee;
+} */
+[data-theme="dark"] #aside-content>.card-widget.card-info {
+  background: (25, 25, 25, 0.88) !important;
 }
 
 /* 个人信息Follow me按钮 */
@@ -152,3 +155,239 @@
   background-color: #3eb8be;
   border-radius: 8px;
 }
+
+.post-content h2 {
+  display: inline-block;
+  /* 给文本添加渐变背景色 */
+  background-image: linear-gradient(to right, #ffb900, #2998ff);
+  /* 让背景色以文本形式显示 */
+  background-clip: text;
+  -webkit-background-clip: text;
+  /* 将文字颜色改为透明色,就可以让文字显示出背景的渐变色 */
+  color: transparent;
+  transition: all 2s;
+}
+
+/* 文章页H1-H6图标样式效果 */
+/* 控制风车转动速度 4s那里可以自己调节快慢 */
+h1::before,
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before {
+  -webkit-animation: ccc 4s linear infinite;
+  animation: ccc 4s linear infinite;
+}
+
+/* 控制风车转动方向 -1turn 为逆时针转动，1turn 为顺时针转动，相同数字部分记得统一修改 */
+@-webkit-keyframes ccc {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(-1turn);
+    transform: rotate(-1turn);
+  }
+}
+
+@keyframes ccc {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(-1turn);
+    transform: rotate(-1turn);
+  }
+}
+
+/* 设置风车颜色 */
+#content-inner.layout h1::before {
+  color: #ef50a8;
+  margin-left: -1.55rem;
+  font-size: 1.3rem;
+  margin-top: -0.23rem;
+}
+
+#content-inner.layout h2::before {
+  color: #fb7061;
+  margin-left: -1.35rem;
+  font-size: 1.1rem;
+  margin-top: -0.12rem;
+}
+
+#content-inner.layout h3::before {
+  color: #ffbf00;
+  margin-left: -1.22rem;
+  font-size: 0.95rem;
+  margin-top: -0.09rem;
+}
+
+#content-inner.layout h4::before {
+  color: #a9e000;
+  margin-left: -1.05rem;
+  font-size: 0.8rem;
+  margin-top: -0.09rem;
+}
+
+#content-inner.layout h5::before {
+  color: #57c850;
+  margin-left: -0.9rem;
+  font-size: 0.7rem;
+  margin-top: 0rem;
+}
+
+#content-inner.layout h6::before {
+  color: #5ec1e0;
+  margin-left: -0.9rem;
+  font-size: 0.66rem;
+  margin-top: 0rem;
+}
+
+/* s设置风车hover动效 6s那里可以自己调节快慢*/
+#content-inner.layout h1:hover,
+#content-inner.layout h2:hover,
+#content-inner.layout h3:hover,
+#content-inner.layout h4:hover,
+#content-inner.layout h5:hover,
+#content-inner.layout h6:hover {
+  color: var(--theme-color);
+}
+
+#content-inner.layout h1:hover::before,
+#content-inner.layout h2:hover::before,
+#content-inner.layout h3:hover::before,
+#content-inner.layout h4:hover::before,
+#content-inner.layout h5:hover::before,
+#content-inner.layout h6:hover::before {
+  color: var(--theme-color);
+  -webkit-animation: ccc 6s linear infinite;
+  animation: ccc 6s linear infinite;
+}
+
+/*哔哩哔哩视频适配*/
+.aspect-ratio {
+  position: relative;
+  width: 90%;
+  height: auto;
+  padding-bottom: 75%;
+  margin: 3% auto;
+  text-align: center;
+}
+
+.aspect-ratio iframe {
+  position: absolute;
+  width: 100%;
+  height: 86%;
+  left: 0;
+  top: 0;
+}
+
+
+/* 猫咪滚动条 */
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+.neko {
+  width: 64px;
+  height: 64px;
+  background-image: url("https://bu.dusays.com/2022/07/20/62d812db74be9.png");
+  position: absolute;
+  right: 32px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: translateX(50%);
+  cursor: pointer;
+  font-family: tzy;
+  font-weight: 600;
+  font-size: 16px;
+  color: #6f42c1;
+  display: none;
+}
+
+.neko::after {
+  display: none;
+  width: 100px;
+  height: 100px;
+  background-image: url("https://bu.dusays.com/2022/07/20/62d812d95e6f5.png");
+  background-size: contain;
+  z-index: 9999;
+  position: absolute;
+  right: 50%;
+  text-align: center;
+  line-height: 100px;
+  top: -115%;
+
+}
+
+.neko.showMsg::after {
+  content: attr(data-msg);
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.neko:hover::after {
+  content: attr(data-msg);
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.neko.fontColor::after {
+  color: #333;
+}
+
+/**
+* @description: 滚动条样式  跟猫二选一
+*/
+@media screen and (max-width:992px) {
+  ::-webkit-scrollbar {
+    width: 8px !important;
+    height: 8px !important
+  }
+
+  ::-webkit-scrollbar-track {
+    border-radius: 2em;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(255 255 255 / .3);
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
+    border-radius: 2em
+  }
+
+  ::-webkit-scrollbar-corner {
+    background-color: transparent
+  }
+}
+
+
+/* 视频背景样式 */
+/* #web_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: .8;
+  overflow: hidden;
+}
+
+#bg-video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+} */
+
+/* 修改文章导航的背景 */
+/* div#swiper_container {
+  background: linear-gradient(to right bottom, #c0941c #3687d3);
+  z-index: 1;
+} */

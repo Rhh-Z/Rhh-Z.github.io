@@ -3,27 +3,29 @@
   background: transparent !important;
 }
 
+/*
 #page-header {
   background: transparent !important;
-}
+} */
 
 /* 白天模式遮罩透明 */
-#footer::before {
+/* #footer::before {
   background: transparent !important;
 }
 
 #page-header::before {
   background: transparent !important;
-}
+} */
 
 /* 夜间模式遮罩透明 */
 [data-theme="dark"] #footer::before {
   background: transparent !important;
 }
 
+/*
 [data-theme="dark"] #page-header::before {
   background: transparent !important;
-}
+} */
 
 @font-face {
   /* 为载入的字体取名字(随意) */
@@ -56,12 +58,13 @@
 /* 子菜单横向展示 */
 #nav .menus_items .menus_item:hover .menus_item_child {
   display: flex !important;
+  flex-direction: column;
 }
 
 /* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */
-.menus_items .menus_item:nth-child(5) .menus_item_child {
-  left: -50px;
-}
+/* .menus_items .menus_item:nth-child(5) .menus_item_child { */
+/* left: -100px; */
+/* } */
 
 
 /* 夜间模式菜单栏发光字 */
@@ -272,9 +275,9 @@ h6::before {
 /*哔哩哔哩视频适配*/
 .aspect-ratio {
   position: relative;
-  width: 90%;
+  width: 100%;
   height: auto;
-  padding-bottom: 75%;
+  padding-bottom: 65%;
   margin: 3% auto;
   text-align: center;
 }
@@ -369,14 +372,31 @@ body::-webkit-scrollbar {
 
 
 /* 视频背景样式 */
-/* #web_bg {
-  position: absolute;
+#page-header.not-home-page {
+  height: 800px;
+}
+
+canvas {
+  z-index: -100 !important;
+}
+
+body {
+  z-index: -1;
+}
+
+#body-wrap {
+  position: relative;
+  z-index: -50;
+}
+
+#page-header {
+  position: relative;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  z-index: -1;
-  opacity: .8;
+  z-index: -100;
+  /* opacity: .8; */
   overflow: hidden;
 }
 
@@ -384,7 +404,7 @@ body::-webkit-scrollbar {
   height: 100%;
   width: 100%;
   object-fit: cover;
-} */
+}
 
 /* 修改文章导航的背景 */
 /* div#swiper_container {

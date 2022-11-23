@@ -12,7 +12,7 @@ function createVideo() {
     source.src = '/video/bg1.mp4'
   } else if (location.href === 'http://localhost:4000/archives/' || location.href === 'https://www.rhhz.top/archives/') {
     source.src = '/video/cloud2.mp4'
-  } else if (location.href === 'http://localhost:4000/tags/' || location.href === 'https://www.rhhz.top/') {
+  } else if (location.href === 'http://localhost:4000/tags/' || location.href === 'https://www.rhhz.top/tags/') {
     source.src = '/video/cloud3.mp4'
   } else if (location.href === 'http://localhost:4000/music/' || location.href === 'https://www.rhhz.top/') {
     source.src = '/video/somke.mp4'

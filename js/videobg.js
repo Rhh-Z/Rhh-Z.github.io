@@ -28,6 +28,8 @@ function createVideo() {
     source.src = '/video/bg7.mp4'
   } else if (location.href === 'http://localhost:4000/about/' || location.href === 'https://www.rhhz.top/about/') {
     source.src = '/video/bg8.mp4'
+  } else if (location.href === 'http://localhost:4000/websites/' || location.href === 'https://www.rhhz.top/websites/') {
+    source.src = '/video/bg9.mp4'
   } else if (location.href === 'http://localhost:4000/bangumis/' || location.href === 'https://www.rhhz.top/bangumis/') {
     source.src = 'https://txmov2.a.yximgs.com/upic/2022/11/23/00/BMjAyMjExMjMwMDI1MDJfMjM0NDkwOTU0OF84OTM1MzM3OTY3MV8wXzM=_b_B51b9c96b487f539f48309d2740586a15.mp4', video.muted = false, video.loop = false
     // 去掉标题

@@ -406,6 +406,17 @@ body {
   object-fit: cover;
 }
 
+/* 阿里图标 */
+svg.icon {
+  width: 1em;
+  height: 1em;
+  /* width和height定义图标的默认宽度和高度*/
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+
 /* 修改文章导航的背景 */
 /* div#swiper_container {
   background: linear-gradient(to right bottom, #c0941c #3687d3);

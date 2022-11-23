@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>心路</title>
+      <link href="/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/"/>
+      <url>/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/</url>
+      
+        <content type="html"><![CDATA[<h2 id="小记"><a href="#小记" class="headerlink" title="小记"></a>小记</h2><p>2022年11月23日 18点52分  天气：晴</p><p>从18号请假回来也已经5天了,这5天,我也感受到了很多，也想趁着我的播客刚刚搭建好，可以写些东西,然而手指放到键盘的那一刻，却又不知从何说起。<br>起初</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Diary </category>
+          
+          <category> Life </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>第三篇文章</title>
       <link href="/%E7%AC%AC%E4%B8%89%E7%AF%87%E6%96%87%E7%AB%A0/"/>
       <url>/%E7%AC%AC%E4%B8%89%E7%AF%87%E6%96%87%E7%AB%A0/</url>
@@ -56,12 +77,14 @@
       <link href="/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
       <url>/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
       
-        <content type="html"><![CDATA[<h2 id="这是我的第一篇文章"><a href="#这是我的第一篇文章" class="headerlink" title="这是我的第一篇文章"></a>这是我的第一篇文章</h2><p>生命对于某些人来说,原本是忧伤的事,是场无可奈何的错误。</p>]]></content>
+        <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=" "></a> </h2><p>生命对于某些人来说,原本是忧伤的事,是场无可奈何的错误。</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hello world</span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>
           
           <category> Diary </category>
+          
+          <category> Life </category>
           
       </categories>
       

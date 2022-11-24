@@ -376,26 +376,13 @@ body::-webkit-scrollbar {
   height: 800px;
 }
 
-canvas {
-  z-index: -100 !important;
-}
-
-body {
-  z-index: -1;
-}
-
-#body-wrap {
-  position: relative;
-  z-index: -50;
-}
-
 #page-header {
   position: relative;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  z-index: -100;
+  /* z-index: -100; */
   /* opacity: .8; */
   overflow: hidden;
 }

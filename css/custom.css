@@ -376,6 +376,12 @@ body::-webkit-scrollbar {
   height: 800px;
 }
 
+/* 标题 */
+#site-title {
+  position: relative;
+  z-index: 1;
+}
+
 #page-header {
   position: relative;
   top: 0;

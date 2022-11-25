@@ -159,7 +159,13 @@
   border-radius: 8px;
 }
 
-.post-content h2 {
+/* 标题渐变色 */
+#article-container h1,
+#article-container h2,
+#article-container h3,
+#article-container h4,
+#article-container h5,
+#article-container h6 {
   display: inline-block;
   /* 给文本添加渐变背景色 */
   background-image: linear-gradient(to right, #ffb900, #2998ff);
@@ -275,9 +281,9 @@ h6::before {
 /*哔哩哔哩视频适配*/
 .aspect-ratio {
   position: relative;
-  width: 100%;
+  width: 90%;
   height: auto;
-  padding-bottom: 65%;
+  padding-bottom: 75%;
   margin: 3% auto;
   text-align: center;
 }
@@ -285,11 +291,10 @@ h6::before {
 .aspect-ratio iframe {
   position: absolute;
   width: 100%;
-  height: 86%;
+  height: 100%;
   left: 0;
   top: 0;
 }
-
 
 /* 猫咪滚动条 */
 body::-webkit-scrollbar {
@@ -407,6 +412,11 @@ svg.icon {
   vertical-align: -0.15em;
   fill: currentColor;
   overflow: hidden;
+}
+
+/* 分类磁贴样式修改 */
+.categoryBar-list-descr {
+  padding: 0 !important;
 }
 
 

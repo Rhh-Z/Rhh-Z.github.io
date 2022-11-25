@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.rhhz.top/archives/cffcff17.html</loc>
+    
+    <lastmod>2022-11-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rhhz.top/shuoshuo/index.html</loc>
+    
+    <lastmod>2022-11-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rhhz.top/books/index.html</loc>
+    
+    <lastmod>2022-11-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rhhz.top/gallery/index.html</loc>
+    
+    <lastmod>2022-11-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.rhhz.top/link/index.html</loc>
     
     <lastmod>2022-11-25</lastmod>
@@ -47,15 +83,6 @@
   </url>
   
   <url>
-    <loc>https://www.rhhz.top/movies/1.html</loc>
-    
-    <lastmod>2022-11-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.rhhz.top/archives/d02caa9c.html</loc>
     
     <lastmod>2022-11-24</lastmod>
@@ -75,15 +102,6 @@
   
   <url>
     <loc>https://www.rhhz.top/gallery/wallpaper/index.html</loc>
-    
-    <lastmod>2022-11-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.rhhz.top/gallery/index.html</loc>
     
     <lastmod>2022-11-24</lastmod>
     
@@ -179,6 +197,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://www.rhhz.top/tags/Css/</loc>
+    <lastmod>2022-11-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -189,7 +214,7 @@
   </url>
   
   <url>
-    <loc>https://www.rhhz.top/categories/Diary/Life/</loc>
+    <loc>https://www.rhhz.top/categories/Note/</loc>
     <lastmod>2022-11-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -203,7 +228,7 @@
   </url>
   
   <url>
-    <loc>https://www.rhhz.top/categories/Note/</loc>
+    <loc>https://www.rhhz.top/categories/Diary/Life/</loc>
     <lastmod>2022-11-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

@@ -387,6 +387,11 @@ body::-webkit-scrollbar {
   z-index: 1;
 }
 
+#subtitle {
+  position: relative;
+  z-index: 1;
+}
+
 #page-header {
   position: relative;
   top: 0;

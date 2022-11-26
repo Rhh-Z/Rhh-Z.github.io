@@ -212,6 +212,13 @@
   </url>
   
   <url>
+    <loc>https://www.rhhz.top/categories/Css/</loc>
+    <lastmod>2022-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.rhhz.top/categories/Diary/Life/</loc>
     <lastmod>2022-11-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -220,13 +227,6 @@
   
   <url>
     <loc>https://www.rhhz.top/categories/Note/JS/</loc>
-    <lastmod>2022-11-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.rhhz.top/categories/Css/</loc>
     <lastmod>2022-11-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

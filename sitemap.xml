@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.rhhz.top/demo/index.html</loc>
+    
+    <lastmod>2022-12-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.rhhz.top/gallery/wallpaper/index.html</loc>
     
     <lastmod>2022-11-26</lastmod>
@@ -175,7 +184,7 @@
 
   <url>
     <loc>https://www.rhhz.top/</loc>
-    <lastmod>2022-11-29</lastmod>
+    <lastmod>2022-12-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -183,14 +192,14 @@
   
   <url>
     <loc>https://www.rhhz.top/tags/Tools/</loc>
-    <lastmod>2022-11-29</lastmod>
+    <lastmod>2022-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.rhhz.top/tags/Css/</loc>
-    <lastmod>2022-11-29</lastmod>
+    <lastmod>2022-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -199,35 +208,35 @@
   
   <url>
     <loc>https://www.rhhz.top/categories/Diary/</loc>
-    <lastmod>2022-11-29</lastmod>
+    <lastmod>2022-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.rhhz.top/categories/Note/</loc>
-    <lastmod>2022-11-29</lastmod>
+    <lastmod>2022-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.rhhz.top/categories/Diary/Life/</loc>
-    <lastmod>2022-11-29</lastmod>
+    <lastmod>2022-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.rhhz.top/categories/Note/JS/</loc>
-    <lastmod>2022-11-29</lastmod>
+    <lastmod>2022-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.rhhz.top/categories/Css/</loc>
-    <lastmod>2022-11-29</lastmod>
+    <lastmod>2022-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

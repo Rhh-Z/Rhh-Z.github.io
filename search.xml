@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>配置pwa</title>
+      <link href="/archives/c21e7c94.html"/>
+      <url>/archives/c21e7c94.html</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><code class="hljs plaintext">npm install --global gulp-cli #全局安装gulp命令集<br>npm install workbox-build gulp --save  #安装work和gulp插件<br><br>#压缩html插件<br>npm install gulp-htmlclean --save-dev<br>npm install --save gulp-htmlmin<br><br>#压缩css插件<br>npm install gulp-clean-css --save-dev<br>#压缩js插件  以下两种压缩方法二选一<br>#1.babel压缩<br>npm install gulp-uglify --save-dev<br>npm install gulp-babel @babel/core @babel/preset-env  --save-dev<br>#2.使用terser压缩<br>npm install gulp-terser --save-dev<br>npm install gulp-babel @babel/core @babel/preset-env  --save-dev<br><br>#压缩图片插件<br>npm install --save-dev gulp-imagemin<br><br>#压缩字体插件（font-min仅支持压缩ttf格式的字体包）<br>npm install gulp-fontmin --save-dev<br></code></pre></td></tr></table></figure><p>在package.json中添加<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs plaintext">&quot;type&quot;:&quot;module&quot;,<br></code></pre></td></tr></table></figure></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>记录Css学习中的特殊效果实现</title>
       <link href="/archives/cffcff17.html"/>
       <url>/archives/cffcff17.html</url>

@@ -4,7 +4,16 @@
   <url>
     <loc>https://www.rhhz.top/manifest.json</loc>
     
-    <lastmod>2022-12-06</lastmod>
+    <lastmod>2022-12-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rhhz.top/img/siteicon/README.html</loc>
+    
+    <lastmod>2022-12-07</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -211,7 +220,7 @@
 
   <url>
     <loc>https://www.rhhz.top/</loc>
-    <lastmod>2022-12-06</lastmod>
+    <lastmod>2022-12-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -219,14 +228,14 @@
   
   <url>
     <loc>https://www.rhhz.top/tags/Tools/</loc>
-    <lastmod>2022-12-06</lastmod>
+    <lastmod>2022-12-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.rhhz.top/tags/Css/</loc>
-    <lastmod>2022-12-06</lastmod>
+    <lastmod>2022-12-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -235,35 +244,35 @@
   
   <url>
     <loc>https://www.rhhz.top/categories/Diary/</loc>
-    <lastmod>2022-12-06</lastmod>
+    <lastmod>2022-12-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.rhhz.top/categories/Note/</loc>
-    <lastmod>2022-12-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.rhhz.top/categories/Css/</loc>
-    <lastmod>2022-12-06</lastmod>
+    <lastmod>2022-12-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.rhhz.top/categories/Diary/Life/</loc>
-    <lastmod>2022-12-06</lastmod>
+    <lastmod>2022-12-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.rhhz.top/categories/Note/JS/</loc>
-    <lastmod>2022-12-06</lastmod>
+    <lastmod>2022-12-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rhhz.top/categories/Css/</loc>
+    <lastmod>2022-12-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

@@ -1,1 +1,432 @@
-#footer{background:0 0!important}[data-theme=dark] #footer::before{background:0 0!important}@font-face{font-family:customfont;src:url(/font/FZFWZhuZiAYuanJWD.TTF);font-weight:400;font-style:normal;font-display:block}#pagination{width:100%;margin:auto}#nav .menus_items{position:absolute!important;width:fit-content!important;left:50%!important;transform:translateX(-50%)!important}#nav .menus_items .menus_item:hover .menus_item_child{display:flex!important;flex-direction:column}[data-theme=dark] #nav .menus_items .menus_item .menus_item_child li a,[data-theme=dark] #nav .site-page{text-shadow:0 0 2px var(--theme-color)!important}[data-theme=dark] #sidebar #sidebar-menus .menus_items .site-page{text-shadow:0 0 2px var(--theme-color)!important}.icon-V{cursor:pointer!important}#aside-content>.card-widget.card-info{background:linear-gradient(-45deg,#ffb900,#ff7730,#2998ff,#eccec5,#a3e9eb,#bdbdf0,#eec1ea);box-shadow:0 0 5px #424444;position:relative;background-size:400% 400%;-webkit-animation:Gradient 10s ease infinite;-moz-animation:Gradient 10s ease infinite;animation:Gradient 10s ease infinite!important}@-webkit-keyframes Gradient{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}@-moz-keyframes Gradient{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}@keyframes Gradient{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}[data-theme=dark] #aside-content>.card-widget.card-info{background:(25,25,25,.88)!important}#aside-content>.card-widget.card-info>#card-info-btn{background-color:#3eb8be;border-radius:8px}#article-container h1,#article-container h2,#article-container h3,#article-container h4,#article-container h5,#article-container h6{display:inline-block;background-image:linear-gradient(to right,#ffb900,#2998ff);background-clip:text;-webkit-background-clip:text;color:transparent;transition:all 2s}h1::before,h2::before,h3::before,h4::before,h5::before,h6::before{-webkit-animation:ccc 4s linear infinite;animation:ccc 4s linear infinite}@-webkit-keyframes ccc{0%{-webkit-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(-1turn);transform:rotate(-1turn)}}@keyframes ccc{0%{-webkit-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(-1turn);transform:rotate(-1turn)}}#content-inner.layout h1::before{color:#ef50a8;margin-left:-1.55rem;font-size:1.3rem;margin-top:-.23rem}#content-inner.layout h2::before{color:#fb7061;margin-left:-1.35rem;font-size:1.1rem;margin-top:-.12rem}#content-inner.layout h3::before{color:#ffbf00;margin-left:-1.22rem;font-size:.95rem;margin-top:-.09rem}#content-inner.layout h4::before{color:#a9e000;margin-left:-1.05rem;font-size:.8rem;margin-top:-.09rem}#content-inner.layout h5::before{color:#57c850;margin-left:-.9rem;font-size:.7rem;margin-top:0}#content-inner.layout h6::before{color:#5ec1e0;margin-left:-.9rem;font-size:.66rem;margin-top:0}#content-inner.layout h1:hover,#content-inner.layout h2:hover,#content-inner.layout h3:hover,#content-inner.layout h4:hover,#content-inner.layout h5:hover,#content-inner.layout h6:hover{color:var(--theme-color)}#content-inner.layout h1:hover::before,#content-inner.layout h2:hover::before,#content-inner.layout h3:hover::before,#content-inner.layout h4:hover::before,#content-inner.layout h5:hover::before,#content-inner.layout h6:hover::before{color:var(--theme-color);-webkit-animation:ccc 6s linear infinite;animation:ccc 6s linear infinite}.aspect-ratio{position:relative;width:90%;height:auto;padding-bottom:75%;margin:3% auto;text-align:center}.aspect-ratio iframe{position:absolute;width:100%;height:100%;left:0;top:0}body::-webkit-scrollbar{width:0}.neko{width:64px;height:64px;background-image:url(https://bu.dusays.com/2022/07/20/62d812db74be9.png);position:absolute;right:32px;background-repeat:no-repeat;background-size:contain;transform:translateX(50%);cursor:pointer;font-family:tzy;font-weight:600;font-size:16px;color:#6f42c1;display:none}.neko::after{display:none;width:100px;height:100px;background-image:url(https://bu.dusays.com/2022/07/20/62d812d95e6f5.png);background-size:contain;z-index:9999;position:absolute;right:50%;text-align:center;line-height:100px;top:-115%}.neko.showMsg::after{content:attr(data-msg);display:block;overflow:hidden;text-overflow:ellipsis}.neko:hover::after{content:attr(data-msg);display:block;overflow:hidden;text-overflow:ellipsis}.neko.fontColor::after{color:#333}@media screen and (max-width:992px){::-webkit-scrollbar{width:8px!important;height:8px!important}::-webkit-scrollbar-track{border-radius:2em}::-webkit-scrollbar-thumb{background-color:rgb(255 255 255 / .3);background-image:-webkit-linear-gradient(45deg,rgba(255,255,255,.1) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.1) 50%,rgba(255,255,255,.1) 75%,transparent 75%,transparent);border-radius:2em}::-webkit-scrollbar-corner{background-color:transparent}}#page-header.not-home-page{height:800px}#site-title{position:relative;z-index:1}#subtitle{position:relative;z-index:1}#page-header{position:relative;top:0;left:0;height:100%;width:100%;overflow:hidden}#bg-video{height:100%;width:100%;object-fit:cover}svg.icon{width:1em;height:1em;vertical-align:-.15em;fill:currentColor;overflow:hidden}.categoryBar-list-descr{padding:0!important}
+/* 页脚与头图透明 */
+#footer {
+  background: transparent !important;
+}
+
+/*
+#page-header {
+  background: transparent !important;
+} */
+
+/* 白天模式遮罩透明 */
+/* #footer::before {
+  background: transparent !important;
+}
+
+#page-header::before {
+  background: transparent !important;
+} */
+
+/* 夜间模式遮罩透明 */
+[data-theme="dark"] #footer::before {
+  background: transparent !important;
+}
+
+/*
+[data-theme="dark"] #page-header::before {
+  background: transparent !important;
+} */
+
+@font-face {
+  /* 为载入的字体取名字(随意) */
+  font-family: 'customfont';
+  /* 字体文件地址(相对或者绝对路径都可以) */
+  src: url(/font/FZFWZhuZiAYuanJWD.TTF);
+  /* 定义加粗样式(加粗多少) */
+  font-weight: normal;
+  /* 定义字体样式(斜体/非斜体) */
+  font-style: normal;
+  /* 定义显示样式 */
+  font-display: block;
+}
+
+/* 翻页按钮居中 */
+#pagination {
+  width: 100%;
+  margin: auto;
+}
+
+
+/* 一级菜单居中 */
+#nav .menus_items {
+  position: absolute !important;
+  width: fit-content !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+
+/* 子菜单横向展示 */
+#nav .menus_items .menus_item:hover .menus_item_child {
+  display: flex !important;
+  flex-direction: column;
+}
+
+/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */
+/* .menus_items .menus_item:nth-child(5) .menus_item_child { */
+/* left: -100px; */
+/* } */
+
+
+/* 夜间模式菜单栏发光字 */
+[data-theme="dark"] #nav .site-page,
+[data-theme="dark"] #nav .menus_items .menus_item .menus_item_child li a {
+  text-shadow: 0 0 2px var(--theme-color) !important;
+}
+
+/* 手机端适配 */
+[data-theme="dark"] #sidebar #sidebar-menus .menus_items .site-page {
+  text-shadow: 0 0 2px var(--theme-color) !important;
+}
+
+/* 解决切换暗亮主题鼠标指针问题 */
+.icon-V {
+  cursor: pointer !important;
+}
+
+/* 侧边栏个人信息卡片动态渐变色 */
+#aside-content>.card-widget.card-info {
+  background: linear-gradient(-45deg,
+      /* #e8d8b9, */
+      /* #eccec5, */
+      #ffb900,
+      #ff7730,
+      #2998ff,
+      #eccec5,
+      #a3e9eb,
+      #bdbdf0,
+      #eec1ea);
+  box-shadow: 0 0 5px rgb(66, 68, 68);
+  position: relative;
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 10s ease infinite;
+  -moz-animation: Gradient 10s ease infinite;
+  animation: Gradient 10s ease infinite !important;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* 黑夜模式适配 */
+/* [data-theme="dark"] #aside-content>.card-widget.card-info {
+  background: #191919ee;
+} */
+[data-theme="dark"] #aside-content>.card-widget.card-info {
+  background: (25, 25, 25, 0.88) !important;
+}
+
+/* 个人信息Follow me按钮 */
+#aside-content>.card-widget.card-info>#card-info-btn {
+  background-color: #3eb8be;
+  border-radius: 8px;
+}
+
+/* 标题渐变色 */
+#article-container h1,
+#article-container h2,
+#article-container h3,
+#article-container h4,
+#article-container h5,
+#article-container h6 {
+  display: inline-block;
+  /* 给文本添加渐变背景色 */
+  background-image: linear-gradient(to right, #ffb900, #2998ff);
+  /* 让背景色以文本形式显示 */
+  background-clip: text;
+  -webkit-background-clip: text;
+  /* 将文字颜色改为透明色,就可以让文字显示出背景的渐变色 */
+  color: transparent;
+  transition: all 2s;
+}
+
+/* 文章页H1-H6图标样式效果 */
+/* 控制风车转动速度 4s那里可以自己调节快慢 */
+h1::before,
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before {
+  -webkit-animation: ccc 4s linear infinite;
+  animation: ccc 4s linear infinite;
+}
+
+/* 控制风车转动方向 -1turn 为逆时针转动，1turn 为顺时针转动，相同数字部分记得统一修改 */
+@-webkit-keyframes ccc {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(-1turn);
+    transform: rotate(-1turn);
+  }
+}
+
+@keyframes ccc {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(-1turn);
+    transform: rotate(-1turn);
+  }
+}
+
+/* 设置风车颜色 */
+#content-inner.layout h1::before {
+  color: #ef50a8;
+  margin-left: -1.55rem;
+  font-size: 1.3rem;
+  margin-top: -0.23rem;
+}
+
+#content-inner.layout h2::before {
+  color: #fb7061;
+  margin-left: -1.35rem;
+  font-size: 1.1rem;
+  margin-top: -0.12rem;
+}
+
+#content-inner.layout h3::before {
+  color: #ffbf00;
+  margin-left: -1.22rem;
+  font-size: 0.95rem;
+  margin-top: -0.09rem;
+}
+
+#content-inner.layout h4::before {
+  color: #a9e000;
+  margin-left: -1.05rem;
+  font-size: 0.8rem;
+  margin-top: -0.09rem;
+}
+
+#content-inner.layout h5::before {
+  color: #57c850;
+  margin-left: -0.9rem;
+  font-size: 0.7rem;
+  margin-top: 0rem;
+}
+
+#content-inner.layout h6::before {
+  color: #5ec1e0;
+  margin-left: -0.9rem;
+  font-size: 0.66rem;
+  margin-top: 0rem;
+}
+
+/* s设置风车hover动效 6s那里可以自己调节快慢*/
+#content-inner.layout h1:hover,
+#content-inner.layout h2:hover,
+#content-inner.layout h3:hover,
+#content-inner.layout h4:hover,
+#content-inner.layout h5:hover,
+#content-inner.layout h6:hover {
+  color: var(--theme-color);
+}
+
+#content-inner.layout h1:hover::before,
+#content-inner.layout h2:hover::before,
+#content-inner.layout h3:hover::before,
+#content-inner.layout h4:hover::before,
+#content-inner.layout h5:hover::before,
+#content-inner.layout h6:hover::before {
+  color: var(--theme-color);
+  -webkit-animation: ccc 6s linear infinite;
+  animation: ccc 6s linear infinite;
+}
+
+/*哔哩哔哩视频适配*/
+.aspect-ratio {
+  position: relative;
+  width: 90%;
+  height: auto;
+  padding-bottom: 75%;
+  margin: 3% auto;
+  text-align: center;
+}
+
+.aspect-ratio iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+/* 猫咪滚动条 */
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+.neko {
+  width: 64px;
+  height: 64px;
+  background-image: url("https://bu.dusays.com/2022/07/20/62d812db74be9.png");
+  position: absolute;
+  right: 32px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: translateX(50%);
+  cursor: pointer;
+  font-family: tzy;
+  font-weight: 600;
+  font-size: 16px;
+  color: #6f42c1;
+  display: none;
+}
+
+.neko::after {
+  display: none;
+  width: 100px;
+  height: 100px;
+  background-image: url("https://bu.dusays.com/2022/07/20/62d812d95e6f5.png");
+  background-size: contain;
+  z-index: 9999;
+  position: absolute;
+  right: 50%;
+  text-align: center;
+  line-height: 100px;
+  top: -115%;
+
+}
+
+.neko.showMsg::after {
+  content: attr(data-msg);
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.neko:hover::after {
+  content: attr(data-msg);
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.neko.fontColor::after {
+  color: #333;
+}
+
+/**
+* @description: 滚动条样式  跟猫二选一
+*/
+@media screen and (max-width:992px) {
+  ::-webkit-scrollbar {
+    width: 8px !important;
+    height: 8px !important
+  }
+
+  ::-webkit-scrollbar-track {
+    border-radius: 2em;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(255 255 255 / .3);
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
+    border-radius: 2em
+  }
+
+  ::-webkit-scrollbar-corner {
+    background-color: transparent
+  }
+}
+
+
+/* 视频背景样式 */
+#page-header.not-home-page {
+  height: 800px;
+}
+
+/* 标题 */
+#site-title {
+  position: relative;
+  z-index: 1;
+}
+
+#subtitle {
+  position: relative;
+  z-index: 1;
+}
+
+#page-header {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  /* z-index: -100; */
+  /* opacity: .8; */
+  overflow: hidden;
+}
+
+#bg-video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* 阿里图标 */
+svg.icon {
+  width: 1em;
+  height: 1em;
+  /* width和height定义图标的默认宽度和高度*/
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+/* 分类磁贴样式修改 */
+.categoryBar-list-descr {
+  padding: 0 !important;
+}
+
+
+/* 修改文章导航的背景 */
+/* div#swiper_container {
+  background: linear-gradient(to right bottom, #c0941c #3687d3);
+  z-index: 1;
+} */

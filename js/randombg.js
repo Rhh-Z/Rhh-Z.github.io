@@ -1,0 +1,1 @@
+var backimg=["url((https://s1.vika.cn/space/2022/12/20/c23de14e373a486eaebd402dfd8cfd2d)","url(https://s1.vika.cn/space/2022/12/20/d64ee54b4bd347dd8745ca5c792cb9fc)","urlhttps://cdn.staticaly.com/gh/Rhh-Z/PicBed@main/img/bg.jpg)"],bgindex=Math.floor(Math.random()*backimg.length);document.getElementById("web_bg").style.backgroundImage=backimg[bgindex];

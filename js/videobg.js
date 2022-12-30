@@ -1,1 +1,55 @@
-function createVideo(){const e=document.createElement("video");e.autoplay=!0,e.muted=!0,e.loop=!0,e.id="bg-video";const t=document.getElementById("page-header").appendChild(e);t.style.background="";const o=document.createElement("source");o.type="video/mp4",e.appendChild(o),"http://localhost:4000/"===location.href||"https://www.rhhz.top/"===location.href?o.src="/video/bg1.mp4":"http://localhost:4000/archives/"===location.href||"https://www.rhhz.top/archives/"===location.href?o.src="/video/cloud2.mp4":location.href.includes("tags")?o.src="/video/cloud3.mp4":location.href.includes("music")?o.src="/video/somke.mp4":location.href.includes("categories")?o.src="/video/bg2.mp4":location.href.includes("movies")?o.src="/video/bg6.mp4":location.href.includes("link")?o.src="/video/bg4.mp4":location.href.includes("comments")?o.src="/video/bg5.mp4":location.href.includes("images")?o.src="/video/bg7.mp4":location.href.includes("about")?o.src="/video/bg8.mp4":location.href.includes("websites")?o.src="/video/bg9.mp4":"http://localhost:4000/gallery/"===location.href||"https://www.rhhz.top/gallery/"===location.href?(t.style.background=style="url('https://cdn.staticaly.com/gh/Rhh-Z/PicBed@main/img/bg1.jpg')",t.style.backgroundSize="inherit"):location.href.includes("http://localhost:4000/gallery/photo/")?(t.style.background=style="url('https://cdn.staticaly.com/gh/Rhh-Z/PicBed@main/img/bg2.jpg')",t.style.backgroundSize="inherit"):location.href.includes("http://localhost:4000/gallery/wallpaper/")?(t.style.background=style="url('https://cdn.staticaly.com/gh/Rhh-Z/PicBed@main/img/bg3.jpg.jpg')",t.style.backgroundSize="inherit"):location.href.includes("http://localhost:4000/shuoshuo/")?(t.style.background=style="url('https://cdn.staticaly.com/gh/Rhh-Z/PicBed@main/img/bg4.jpg')",t.style.backgroundSize="inherit"):location.href.includes("http://localhost:4000/demo/")?(t.style.background=style="url('https://cdn.staticaly.com/gh/Rhh-Z/PicBed@main/img/bg7.jpg')",t.style.backgroundSize="inherit"):location.href.includes("bangumis")&&(o.src="https://txmov2.a.yximgs.com/upic/2022/11/23/00/BMjAyMjExMjMwMDI1MDJfMjM0NDkwOTU0OF84OTM1MzM3OTY3MV8wXzM=_b_B51b9c96b487f539f48309d2740586a15.mp4",e.muted=!1,e.loop=!1,document.getElementById("site-title").innerHTML="")}createVideo();
+function createVideo() {
+  const video = document.createElement('video')
+  video.autoplay = true, video.muted = true, video.loop = true, video.id = 'bg-video'
+  const bg = document.getElementById('page-header').appendChild(video)
+  bg.style.background = ''
+  const source = document.createElement('source')
+  source.type = 'video/mp4'
+  video.appendChild(source)
+  // 根据不同的url地址播放不同的视频
+  // 一个开发环境一个生产环境
+  if (location.href === 'http://localhost:4000/' || location.href === 'https://www.rhhz.top/') {
+    source.src = '/video/bg1.mp4'
+  }
+  //else if (location.href === 'http://localhost:4000/archives/' || location.href === 'https://www.rhhz.top/archives/') { //为了使文章详情页面不显示此视频，修改其条件
+  //   source.src = '/video/cloud2.mp4'
+  // } else if (location.href.includes('tags')) {
+  //   source.src = '/video/cloud3.mp4'
+  // } else if (location.href.includes('music')) {
+  //   source.src = '/video/somke.mp4'
+  // } else if (location.href.includes('categories')) {
+  //   source.src = '/video/bg2.mp4'
+  // } else if (location.href.includes('movies')) {
+  //   source.src = '/video/bg6.mp4'
+  // } else if (location.href.includes('link')) {
+  //   source.src = '/video/bg4.mp4'
+  // } else if (location.href.includes('comments')) {
+  //   source.src = '/video/bg5.mp4'
+  // } else if (location.href.includes('images')) {
+  //   source.src = '/video/bg7.mp4'
+  // } else if (location.href.includes('about')) {
+  //   source.src = '/video/bg8.mp4'
+  // } else if (location.href.includes('websites')) {
+  //   source.src = '/video/bg9.mp4'
+  // } else if (location.href === 'http://localhost:4000/gallery/' || location.href === 'https://www.rhhz.top/gallery/') {
+  //   bg.style.background = style = "url('https://cdn.staticaly.com/gh/Rhh-Z/PicBed@main/img/bg1.jpg')"
+  //   bg.style.backgroundSize = 'inherit'
+  // } else if (location.href.includes('http://localhost:4000/gallery/photo/' || location.href === 'https://www.rhhz.top/gallery/photo/')) {
+  //   bg.style.background = style = "url('https://cdn.staticaly.com/gh/Rhh-Z/PicBed@main/img/bg2.jpg')"
+  //   bg.style.backgroundSize = 'inherit'
+  // } else if (location.href.includes('http://localhost:4000/gallery/wallpaper/' || location.href === 'https://www.rhhz.top/gallery/wallpaper/')) {
+  //   bg.style.background = style = "url('https://cdn.staticaly.com/gh/Rhh-Z/PicBed@main/img/bg3.jpg.jpg')"
+  //   bg.style.backgroundSize = 'inherit'
+  // } else if (location.href.includes('http://localhost:4000/shuoshuo/' || location.href === 'https://www.rhhz.top/shuoshuo/')) {
+  //   bg.style.background = style = "url('https://cdn.staticaly.com/gh/Rhh-Z/PicBed@main/img/bg4.jpg')"
+  //   bg.style.backgroundSize = 'inherit'
+  // } else if (location.href.includes('http://localhost:4000/demo/' || location.href === 'https://www.rhhz.top/demo/')) {
+  //   bg.style.background = style = "url('https://cdn.staticaly.com/gh/Rhh-Z/PicBed@main/img/bg7.jpg')"
+  //   bg.style.backgroundSize = 'inherit'
+  // } else if (location.href.includes('bangumis')) {
+  //   source.src = 'https://txmov2.a.yximgs.com/upic/2022/11/23/00/BMjAyMjExMjMwMDI1MDJfMjM0NDkwOTU0OF84OTM1MzM3OTY3MV8wXzM=_b_B51b9c96b487f539f48309d2740586a15.mp4', video.muted = false, video.loop = false
+  //   // 去掉标题
+  //   document.getElementById('site-title').innerHTML = ''
+  // }
+}
+createVideo()

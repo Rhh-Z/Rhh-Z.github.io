@@ -1,14 +1,14 @@
-function createVideo() {
-  const video = document.createElement('video')
-  video.autoplay = true, video.muted = true, video.loop = true, video.id = 'bg-video'
-  const bg = document.getElementById('page-header').appendChild(video)
-  bg.style.background = ''
-  const source = document.createElement('source')
-  source.type = 'video/mp4'
-  video.appendChild(source)
+(function createVideo() {
   // 根据不同的url地址播放不同的视频
   // 一个开发环境一个生产环境
   if (location.href === 'http://localhost:4000/' || location.href === 'https://www.rhhz.top/') {
+    const video = document.createElement('video')
+    video.autoplay = true, video.muted = true, video.loop = true, video.id = 'bg-video'
+    const bg = document.getElementById('page-header').appendChild(video)
+    bg.style.background = ''
+    const source = document.createElement('source')
+    source.type = 'video/mp4'
+    video.appendChild(source)
     source.src = '/video/bg1.mp4'
   }
   //else if (location.href === 'http://localhost:4000/archives/' || location.href === 'https://www.rhhz.top/archives/') { //为了使文章详情页面不显示此视频，修改其条件
@@ -51,5 +51,4 @@ function createVideo() {
   //   // 去掉标题
   //   document.getElementById('site-title').innerHTML = ''
   // }
-}
-createVideo()
+}())

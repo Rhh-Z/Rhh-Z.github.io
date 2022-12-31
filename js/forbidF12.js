@@ -18,4 +18,8 @@ document.onkeydown = document.onkeyup = document.onkeypress = function (event) {
   }
 }
 
+if (location.href !== 'http://localhost:4000/' || location.href !== 'https://www.rhhz.top/') {
+  let html = document.querySelector('html')
+  html.setAttribute('class', 'hide-aside')
+}
 

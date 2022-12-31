@@ -73,8 +73,6 @@
 /* 侧边栏个人信息卡片动态渐变色 */
 #aside-content>.card-widget.card-info {
   background: linear-gradient(-45deg,
-      /* #e8d8b9, */
-      /* #eccec5, */
       #ffb900,
       #ff7730,
       #2998ff,
@@ -131,6 +129,9 @@
     background-position: 0% 50%;
   }
 }
+
+
+
 
 /* 黑夜模式适配 */
 /* [data-theme="dark"] #aside-content>.card-widget.card-info {
@@ -527,10 +528,6 @@ section .item:hover .alienware:nth-child(2)::after {
   background-color: red;
 }
 
-/* section .item:hover .alienware:nth-child(1):active {
-  transform: translate(4px) rotate(45deg);
-} */
-
 section .item a {
   opacity: 0;
   position: absolute;
@@ -544,4 +541,15 @@ section .item a {
 section .item:hover a {
   opacity: 1;
   transition: opacity 1s;
+}
+
+/* 文章页面背景 */
+#content-inner #page {
+  width: 100%;
+  background-color: rgba(240, 232, 232, 0.8);
+}
+
+[data-theme='dark'] #content-inner #page {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }

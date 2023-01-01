@@ -545,11 +545,9 @@ section .item:hover a {
 
 /* 文章页面背景 */
 #content-inner #page {
-  width: 100%;
   background-color: rgba(240, 232, 232, 0.8);
 }
 
 [data-theme='dark'] #content-inner #page {
-  width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }

@@ -18,12 +18,3 @@ document.onkeydown = document.onkeyup = document.onkeypress = function (event) {
   }
 }
 
-
-
-let html = document.querySelector('html')
-
-if (html.getAttribute('class') !== 'hide-aside' && location.href !== 'http://localhost:4000/') {
-  console.log(1);
-  html.setAttribute('class', 'hide-aside')
-}
-

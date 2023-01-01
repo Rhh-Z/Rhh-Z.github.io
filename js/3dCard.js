@@ -505,12 +505,4 @@ VanillaTilt.init(document.querySelectorAll('.flink-list-item'), {
   "max-glare": 1
 })
 
-// let html = document.querySelector('html')
-// if (location.href !== 'http://localhost:4000/' || location.href !== 'https://www.rhhz.top/') {
-//   if (html.getAttribute('class') === 'hide-aside') {
-//     return
-//   }
-// } else {
-//   let btn = document.querySelector('#hide-aside-btn')
-//   btn.click()
-// }
+

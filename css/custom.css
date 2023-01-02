@@ -26,7 +26,6 @@
   background: transparent !important;
 }
 
-
 /* 翻页按钮居中 */
 #pagination {
   width: 100%;
@@ -556,10 +555,10 @@ section .item:hover a {
   /* background-image: url(https://s1.vika.cn/space/2022/12/28/da8b4b10210d45ab8a671d28809eac61); */
   background-position: center;
   background-size: cover;
-  font-size: 250px;
+  font-size: 280px;
   font-weight: 900;
   text-align: center;
-  /* 相对定位 */
+  /* 绝对定位 */
   position: absolute;
   background-clip: text;
   -webkit-background-clip: text;
@@ -580,4 +579,9 @@ section .item:hover a {
   bottom: 0;
   right: 0;
   z-index: -999;
+}
+
+/* 夜间适配 */
+[data-theme='dark'] #web_bg:before {
+  z-index: 1;
 }

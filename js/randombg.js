@@ -21,21 +21,24 @@ bg = document.querySelector(".scroll_bg")
 //重设背景图片
 bg.style.backgroundImage = backimg[bgindex];
 
-function scrollAnimate () {
-  // 获取当前滚轮位置
-  const scrollY = window.scrollY
-  if (scrollY >= 0 && scrollY <= 600) {
-    bg.style.backgroundPosition = "calc(50% - " + scrollY + "px) calc(50% - " + scrollY + "px)"
-  } else {
-    bg.style.backgroundPosition = ""
+function scrollAnimate() {
+  if (location.pathname === '/') {
+    // 获取当前滚轮位置
+    const scrollY = window.scrollY
+    if (scrollY >= 0 && scrollY <= 600) {
+      bg.style.backgroundPosition = "calc(50% - " + scrollY + "px) calc(50% - " + scrollY + "px)"
+    } else {
+      bg.style.backgroundPosition = ""
+    }
   }
 }
 
-document.addEventListener('scroll',scrollAnimate )
+document.addEventListener('scroll', scrollAnimate)
 
-if(scrollY >= 600){
-  document.removeEventListener('scroll',scrollAnimate )
+if (scrollY >= 600) {
+  document.removeEventListener('scroll', scrollAnimate)
 }
+
 
 
 

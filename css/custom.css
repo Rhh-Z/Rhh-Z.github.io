@@ -548,3 +548,36 @@ section .item:hover a {
 [data-theme='dark'] #content-inner #page {
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+
+
+/* 背景滚动视差效果 */
+#web_bg .scroll_bg {
+  /* background-image: url(https://s1.vika.cn/space/2022/12/28/da8b4b10210d45ab8a671d28809eac61); */
+  background-position: center;
+  background-size: cover;
+  font-size: 250px;
+  font-weight: 900;
+  text-align: center;
+  /* 相对定位 */
+  position: absolute;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+#web_bg .scroll_bg::before {
+  content: "";
+  background-image: inherit;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -999;
+}

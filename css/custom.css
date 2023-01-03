@@ -437,107 +437,7 @@ i:hover {
   z-index: 1000;
 }
 
-/* 首页标志 */
-#nav {
-  justify-content: space-between;
-}
 
-#nav #blog_name {
-  flex: 0;
-}
-
-section {
-  position: relative;
-  margin-left: 20px;
-}
-
-section .item .alienware {
-  border: 1px solid white;
-}
-
-section .item .alienware:nth-child(1) {
-  position: absolute;
-  left: 0px;
-  width: 30px;
-  height: 30px;
-  background-color: black;
-  transform: translateZ(0px) rotate(45deg);
-  border-radius: 50% 45% 25% 45%;
-  transition: 0.5s;
-  animation: light 3s ease-in infinite alternate;
-  clip-path: polygon(0% 0%, 100% 97%, 100% 100%, 0% 100%);
-  cursor: pointer;
-}
-
-section .item .alienware:nth-child(1)::after {
-  position: absolute;
-  top: 20px;
-  left: 10px;
-  transform: rotate(45deg);
-}
-
-section .item .alienware::after {
-  content: '';
-  width: 5px;
-  height: 5px;
-  background-color: white;
-  border-top-left-radius: 100px;
-  border-bottom-right-radius: 100px;
-  transition: tramsform 0.5s;
-}
-
-
-section .item .alienware:nth-child(2) {
-  position: relative;
-  left: 0px;
-  width: 30px;
-  height: 30px;
-  background-color: black;
-  transform: rotate(45deg);
-  border-radius: 50% 45% 25% 45%;
-  transition: 0.5s;
-  animation: light 3s ease-in infinite alternate;
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 97% 100%);
-  cursor: pointer;
-}
-
-section .item .alienware:nth-child(2)::after {
-  position: absolute;
-  top: 10px;
-  left: 20px;
-  transform: rotate(-45deg);
-}
-
-section .item:hover .alienware:nth-child(1) {
-  left: -15px;
-  transform: translateZ(10px) rotate(45deg);
-  transition: left 1s, transform 1s;
-}
-
-section .item:hover .alienware:nth-child(2) {
-  left: 15px;
-  transition: left 1s;
-}
-
-section .item:hover .alienware:nth-child(1)::after,
-section .item:hover .alienware:nth-child(2)::after {
-  background-color: red;
-}
-
-section .item a {
-  opacity: 0;
-  position: absolute;
-  text-decoration: none;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-
-section .item:hover a {
-  opacity: 1;
-  transition: opacity 1s;
-}
 
 /* 文章页面背景 */
 #content-inner #page {
@@ -555,7 +455,7 @@ section .item:hover a {
   /* background-image: url(https://s1.vika.cn/space/2022/12/28/da8b4b10210d45ab8a671d28809eac61); */
   background-position: center;
   background-size: cover;
-  font-size: 280px;
+  font-size: 30vh;
   font-weight: 900;
   text-align: center;
   /* 绝对定位 */

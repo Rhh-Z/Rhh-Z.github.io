@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.rhhz.top/archives/cdbf72d3.html</loc>
+    
+    <lastmod>2023-01-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.rhhz.top/link/index.html</loc>
     
     <lastmod>2023-01-01</lastmod>
@@ -41,15 +50,6 @@
     <loc>https://www.rhhz.top/shuoshuo/index.html</loc>
     
     <lastmod>2022-12-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.rhhz.top/archives/cdbf72d3.html</loc>
-    
-    <lastmod>2022-12-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -275,13 +275,6 @@
   </url>
   
   <url>
-    <loc>https://www.rhhz.top/tags/Web-worker/</loc>
-    <lastmod>2023-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.rhhz.top/tags/Markdown/</loc>
     <lastmod>2023-01-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -289,7 +282,7 @@
   </url>
   
   <url>
-    <loc>https://www.rhhz.top/tags/JS/</loc>
+    <loc>https://www.rhhz.top/tags/Web-worker/</loc>
     <lastmod>2023-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -297,6 +290,13 @@
   
   <url>
     <loc>https://www.rhhz.top/tags/Promise/</loc>
+    <lastmod>2023-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rhhz.top/tags/JS/</loc>
     <lastmod>2023-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -354,14 +354,14 @@
   </url>
   
   <url>
-    <loc>https://www.rhhz.top/categories/PWA/Web-worker/</loc>
+    <loc>https://www.rhhz.top/categories/Hexo/%E9%AD%94%E6%94%B9/</loc>
     <lastmod>2023-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.rhhz.top/categories/Hexo/%E9%AD%94%E6%94%B9/</loc>
+    <loc>https://www.rhhz.top/categories/PWA/Web-worker/</loc>
     <lastmod>2023-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -375,14 +375,14 @@
   </url>
   
   <url>
-    <loc>https://www.rhhz.top/categories/JS/</loc>
+    <loc>https://www.rhhz.top/categories/ES6/</loc>
     <lastmod>2023-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.rhhz.top/categories/ES6/</loc>
+    <loc>https://www.rhhz.top/categories/JS/</loc>
     <lastmod>2023-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

@@ -1,1 +1,0 @@
-document.querySelector("#IP").innerHTML=returnCitySN.cip,document.querySelector("#CITY").innerHTML=returnCitySN.cname,document.addEventListener("visibilitychange",(()=>{"hidden"===document.visibilityState&&(document.title="o(╥﹏╥)o不要走，再看看嘛!",console.log(1)),"visible"===document.visibilityState&&(document.title="欢迎肥来━(*｀∀´*)ノ亻!")}));

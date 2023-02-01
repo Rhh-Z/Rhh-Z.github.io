@@ -1,1 +1,0 @@
-Splitting({target:".fj-gallery-item",by:"cells",rows:3,columns:3,image:!0});

@@ -245,6 +245,13 @@
 
   
   <url>
+    <loc>https://www.rhhz.top/tags/Scss/</loc>
+    <lastmod>2023-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.rhhz.top/tags/Hexo/</loc>
     <lastmod>2023-02-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -259,20 +266,6 @@
   </url>
   
   <url>
-    <loc>https://www.rhhz.top/tags/Scss/</loc>
-    <lastmod>2023-02-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.rhhz.top/tags/Promise/</loc>
-    <lastmod>2023-02-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.rhhz.top/tags/Markdown/</loc>
     <lastmod>2023-02-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -281,6 +274,13 @@
   
   <url>
     <loc>https://www.rhhz.top/tags/Web-worker/</loc>
+    <lastmod>2023-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rhhz.top/tags/Promise/</loc>
     <lastmod>2023-02-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -324,6 +324,13 @@
   </url>
   
   <url>
+    <loc>https://www.rhhz.top/categories/Scss/</loc>
+    <lastmod>2023-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.rhhz.top/categories/PWA/</loc>
     <lastmod>2023-02-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -331,7 +338,7 @@
   </url>
   
   <url>
-    <loc>https://www.rhhz.top/categories/Scss/</loc>
+    <loc>https://www.rhhz.top/categories/Hexo/</loc>
     <lastmod>2023-02-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -352,7 +359,7 @@
   </url>
   
   <url>
-    <loc>https://www.rhhz.top/categories/Hexo/</loc>
+    <loc>https://www.rhhz.top/categories/JS/</loc>
     <lastmod>2023-02-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -366,7 +373,7 @@
   </url>
   
   <url>
-    <loc>https://www.rhhz.top/categories/PWA/Web-worker/</loc>
+    <loc>https://www.rhhz.top/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
     <lastmod>2023-02-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -380,21 +387,14 @@
   </url>
   
   <url>
+    <loc>https://www.rhhz.top/categories/PWA/Web-worker/</loc>
+    <lastmod>2023-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.rhhz.top/categories/Hexo/%E9%AD%94%E6%94%B9/Markdown/</loc>
-    <lastmod>2023-02-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.rhhz.top/categories/JS/</loc>
-    <lastmod>2023-02-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.rhhz.top/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
     <lastmod>2023-02-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
